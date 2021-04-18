@@ -1,5 +1,5 @@
-import firebase from '../helpers/db';
-import Customer from '../models/customer';
+import firebase from '../db/db';
+import Customer from '../cust/customer';
 
 
 const firestore = firebase.firestore();

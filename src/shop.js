@@ -1,6 +1,6 @@
 
 import Main from './components/Main';
-import Basket from './components/Basket';
+import Basket from './components/itempage';
 import data from './data';
 import { useState } from 'react';
 function Shop() {

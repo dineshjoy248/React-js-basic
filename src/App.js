@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import NavBar from './layouts/NavBar';
+import NavBar from './header/NavBar';
 import Login from './authentication/Login';
 import SignUp from './authentication/SignUp';
 function App() {

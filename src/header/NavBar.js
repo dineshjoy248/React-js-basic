@@ -2,7 +2,7 @@ import React from 'react';
 import {AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, makeStyles} from '@material-ui/core';
 import {AccountCircle} from '@material-ui/icons';
 import Shop from '../shop';
-import Customer from '../screens/Customer';
+import Customer from '../page/Customer';
 
 const NavBar = (props) => {
     const classes = useStyles();

@@ -3,7 +3,7 @@ import {Container, CssBaseline, Avatar, Typography,
     Button, Grid, Link, makeStyles, Card, CardContent} from '@material-ui/core';
 import {LockRounded} from '@material-ui/icons';
 import {ValidatorForm, TextValidator} from 'react-material-ui-form-validator';
-import fire from '../helpers/db';
+import fire from '../db/db';
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
